@@ -14,8 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (xhr.status != 200) {
                 console.error('Ошибка!');
             } else {
-                console.log(`Готово, получили ${xhr.response.length} байт`); // response -- это ответ сервера
-                console.log(JSON.parse(xhr.response));
+                drawMessages(xhr.response);
             }
         };
 
@@ -40,12 +39,18 @@ document.addEventListener('DOMContentLoaded', function() {
             if (xhr.status != 200) {
                 console.error('Ошибка!');
             } else {
-                const serverMessages = JSON.parse(xhr.response);
-                messages.innerHTML = '';
-                for (let serverMessage of serverMessages) {
-                    messages.innerHTML += `<ul><b>${serverMessage.nick}:</b> ${serverMessage.message}</ul>`;
-                }
+                drawMessages(xhr.response);
             }
         };
     }, 1000);
+
+    function drawMessages(response) {
+        const messages = document.getElementById('messages');
+        const serverMessages = JSON.parse(response);
+        messages.innerHTML = '';
+        for (let serverMessage of serverMessages) {
+            messages.innerHTML += `<ul><b>${serverMessage.nick}:</b> ${serverMessage.message}</ul>`;
+        }
+    }
+
 });
