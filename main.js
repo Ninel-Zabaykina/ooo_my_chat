@@ -2,9 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const button = document.getElementById('button');
     const input = document.getElementById('input');
     const messages = document.getElementById('messages');
+    const URL = 'http://localhost:3000';
     button.addEventListener('click', function() {
         let xhr = new XMLHttpRequest();
-        xhr.open('POST', 'http://localhost:3000');
+        xhr.open('POST', URL);
         xhr.send(JSON.stringify({
             nick: nick.value,
             message: message.value
@@ -33,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     setInterval(function() {
         let xhr = new XMLHttpRequest();
-        xhr.open('GET', 'http://localhost:3000');
+        xhr.open('GET', URL);
         xhr.send();
         xhr.onload = function() {
             if (xhr.status != 200) {
