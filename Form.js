@@ -8,10 +8,19 @@ class Form extends React.Component {
     }
 
     handleSend() {
+        // do nothing if message is empty
+        if (!this.state.message){
+            return
+        }
+        if (!this.state.nick){
+            return
+        }
         this.props.postMessage({
             nick: this.state.nick,
             message: this.state.message
         });
+        document.getElementsByTagName('textarea')[0].value = '';
+        this.state.message = '';
     }
 
     render() {
