@@ -1,0 +1,40 @@
+{
+  "name": "ooo_my_chat",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninel-Zabaykina/ooo_my_chat.git"
+  },
+  "author": "Ninel Zabaykina",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Ninel-Zabaykina/ooo_my_chat/issues"
+  },
+  "homepage": "https://github.com/Ninel-Zabaykina/ooo_my_chat#readme",
+  "keywords": [
+    "chat",
+    "react.js"
+  ],
+  "description": "",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-jest": "^26.6.3",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jest": {
+      "setupFiles": [
+        "./setupTests.js"
+      ]
+    }
+  }
+}
