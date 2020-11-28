@@ -1,0 +1,3 @@
+npx http-server . /* запускает клиент
+
+node server.js /* поднять сервер
