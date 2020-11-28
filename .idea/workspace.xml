@@ -10,14 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="patching app">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ooo_my_chat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ do nothing if message or nick is empty&#10;+ message field cleaning after send">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,6 +54,9 @@
       <option name="presentableId" value="Default" />
       <updated>1602337747391</updated>
       <workItem from="1602337748470" duration="9012000" />
+      <workItem from="1602414861338" duration="1347000" />
+      <workItem from="1602522948499" duration="4199000" />
+      <workItem from="1606568206895" duration="1895000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -110,7 +107,35 @@
       <option name="project" value="LOCAL" />
       <updated>1602345713496</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="splitting App Components to different files">
+      <created>1602396018375</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602396018375</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Form.js fixing missed code">
+      <created>1602415125211</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602415125211</updated>
+    </task>
+    <task id="LOCAL-00010" summary="wrong path and filename fixed for MessagesList.js">
+      <created>1602415610289</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602415610289</updated>
+    </task>
+    <task id="LOCAL-00011" summary="+ do nothing if message or nick is empty&#10;+ message field cleaning after send">
+      <created>1602593377025</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602593377025</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +151,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="server.js added" />
@@ -135,13 +161,21 @@
     <MESSAGE value="url to const, continue reducing code duplication" />
     <MESSAGE value="app.js added" />
     <MESSAGE value="patching app" />
-    <option name="LAST_COMMIT_MESSAGE" value="patching app" />
+    <MESSAGE value="splitting App Components to different files" />
+    <MESSAGE value="Form.js fixing missed code" />
+    <MESSAGE value="wrong path and filename fixed for MessagesList.js" />
+    <MESSAGE value="+ do nothing if message or nick is empty&#10;+ message field cleaning after send" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ do nothing if message or nick is empty&#10;+ message field cleaning after send" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1602341031825">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1602341031825" />
+    <state x="495" y="132" key="RollbackChangesDialog" timestamp="1602395663058">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="495" y="132" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1602395663058" />
     <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1602344961196">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
