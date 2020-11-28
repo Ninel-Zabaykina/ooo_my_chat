@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="create babel.config.js">
-      <change afterPath="$PROJECT_DIR$/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="added setupTests.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +54,7 @@
       <workItem from="1602337748470" duration="9012000" />
       <workItem from="1602414861338" duration="1347000" />
       <workItem from="1602522948499" duration="4199000" />
-      <workItem from="1606568206895" duration="2825000" />
+      <workItem from="1606568206895" duration="3033000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -150,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606570949958</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added setupTests.js">
+      <created>1606571604351</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606571604351</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +186,8 @@
     <MESSAGE value="+ do nothing if message or nick is empty&#10;+ message field cleaning after send" />
     <MESSAGE value="change package.json and package-lock.json" />
     <MESSAGE value="create babel.config.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="create babel.config.js" />
+    <MESSAGE value="added setupTests.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="added setupTests.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1602341031825">
@@ -201,10 +206,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="495" y="132" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1602395663058" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1606570955104">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1606571619512">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1606570955104" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1606571619512" />
     <state x="520" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606570744265">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
