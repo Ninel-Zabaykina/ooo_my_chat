@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from './components/Form';
 import MessagesList from './components/MessagesList';
+import BabyMop from './components/BabyMop';
 
 const URL = 'http://localhost:3000';
 
@@ -55,8 +56,10 @@ class App extends React.Component {
 
     render() {
         const {serverMessages } = this.state;
-        return <>
+        return <BabyMop>
             <h1>Чат</h1>
+            <img src="images/Baby-Mop1.jpg" style={{width: "200px"}}/>
+            <BabyMop/>
             <Form postMessage={(newMessage) => this.postMessage(newMessage)}/>
             <MessagesList messages={serverMessages}/>
         </>

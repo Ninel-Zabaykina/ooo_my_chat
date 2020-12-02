@@ -46,6 +46,7 @@
     "cross-env": "^7.0.3",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
+    "file-loader": "^6.1.0",
     "html-webpack-plugin": "^4.5.0",
     "jest": {
       "setupFiles": [
