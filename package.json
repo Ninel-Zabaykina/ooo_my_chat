@@ -5,8 +5,17 @@
   "scripts": {
     "test": "jest",
     "start": "node server.js",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js",
-    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./configs/webpack.development.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./configs/webpack.production.js",
+    "lint": "eslint src/",
+    "lint-fix": "eslint src/ --fix",
+    "prettier": "prettier --write \"src/**/*.js\"",
+    "storybook": "start-storybook -p 6006 --no-dll",
+    "build-storybook": "build-storybook --no-dll",
+    "loki:test": "npm run build-storybook && npx loki test --reactUri file:./storybook-static",
+    "loki:update": "npm run build-storybook && npx loki update --reactUri file:./storybook-static",
+    "loki:approve": "npx loki approve",
+    "nightwatch": "nightwatch"
   },
   "repository": {
     "type": "git",
