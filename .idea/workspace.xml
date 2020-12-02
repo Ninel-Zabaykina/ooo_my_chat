@@ -10,12 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="beuty">
-      <change afterPath="$PROJECT_DIR$/configs/webpack.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/webpack.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/webpack.production.js" afterDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="configs for different files">
+      <change afterPath="$PROJECT_DIR$/configs/paths.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/webpack.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/webpack.development.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606925266111</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="configs for different files">
+      <created>1606926489733</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606926489733</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +267,8 @@
     <MESSAGE value="+ webpack" />
     <MESSAGE value="fixed" />
     <MESSAGE value="beuty" />
-    <option name="LAST_COMMIT_MESSAGE" value="beuty" />
+    <MESSAGE value="configs for different files" />
+    <option name="LAST_COMMIT_MESSAGE" value="configs for different files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1606877162157">
