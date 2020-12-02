@@ -10,12 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="hot reload">
-      <change afterPath="$PROJECT_DIR$/public/images/Baby-Mop1.jpg" afterDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+image">
+      <change afterPath="$PROJECT_DIR$/src/components/BabyMop/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/webpack.common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BabyMop/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BabyMop/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606926703953</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="+image">
+      <created>1606927459201</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606927459201</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +284,8 @@
     <MESSAGE value="beuty" />
     <MESSAGE value="configs for different files" />
     <MESSAGE value="hot reload" />
-    <option name="LAST_COMMIT_MESSAGE" value="hot reload" />
+    <MESSAGE value="+image" />
+    <option name="LAST_COMMIT_MESSAGE" value="+image" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1606877162157">
