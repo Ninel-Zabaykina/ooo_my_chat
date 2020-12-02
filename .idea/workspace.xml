@@ -10,8 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="helping commands">
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="change package.json for start chatik">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessagesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/MessagesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remember.txt" beforeDir="false" afterPath="$PROJECT_DIR$/remember.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +50,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-training.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mini-chat-server" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ninel\PhpstormProjects\Chatik\ooo_my_chat\public" />
+      <recent name="C:\Users\ninel\PhpstormProjects\Chatik\ooo_my_chat\public\styles" />
+      <recent name="C:\Users\ninel\PhpstormProjects\Chatik\ooo_my_chat" />
+      <recent name="C:\Users\ninel\PhpstormProjects\Chatik\ooo_my_chat\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,7 +73,11 @@
       <workItem from="1602337748470" duration="9012000" />
       <workItem from="1602414861338" duration="1347000" />
       <workItem from="1602522948499" duration="4199000" />
-      <workItem from="1606568206895" duration="9110000" />
+      <workItem from="1606568206895" duration="6384000" />
+      <workItem from="1606826712431" duration="711000" />
+      <workItem from="1606827451347" duration="53000" />
+      <workItem from="1606827555699" duration="3706000" />
+      <workItem from="1606877099833" duration="5199000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -177,28 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606574808087</updated>
     </task>
-    <task id="LOCAL-00018" summary="added Form.test.js">
-      <created>1606575246340</created>
+    <task id="LOCAL-00018" summary="change package.json for start chatik">
+      <created>1606877437602</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1606575246340</updated>
+      <updated>1606877437602</updated>
     </task>
-    <task id="LOCAL-00019" summary="added package-lock.json and package.json">
-      <created>1606577189849</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1606577189849</updated>
-    </task>
-    <task id="LOCAL-00020" summary="helping commands">
-      <created>1606577977636</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1606577977637</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,16 +240,14 @@
     <MESSAGE value="added setupTests.js" />
     <MESSAGE value="added Message.test.js" />
     <MESSAGE value="change Message.js" />
-    <MESSAGE value="added Form.test.js" />
-    <MESSAGE value="added package-lock.json and package.json" />
-    <MESSAGE value="helping commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="helping commands" />
+    <MESSAGE value="change package.json for start chatik" />
+    <option name="LAST_COMMIT_MESSAGE" value="change package.json for start chatik" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1602341031825">
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1606877162157">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1602341031825" />
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1606877162157" />
     <state x="514" y="330" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1606571293267">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -251,14 +256,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="358" y="191" key="MultipleFileMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1606571315934" />
-    <state x="495" y="132" key="RollbackChangesDialog" timestamp="1606578357421">
+    <state x="495" y="132" key="RollbackChangesDialog" timestamp="1602395663058">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="495" y="132" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1606578357421" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1606571934443">
+    <state x="495" y="132" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1602395663058" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1606877444737">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1606571934443" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1606877444737" />
     <state x="520" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606570744265">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

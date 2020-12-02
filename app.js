@@ -1,21 +1,20 @@
+import React from 'react';
+import Form from './Form';
+import MessagesList from './MessagesList';
+
 const URL = 'http://localhost:3000';
 
 class App extends React.Component {
 
     constructor() {
         super();
-        // эти переменные будут меняться динамически
         this.state = {
             serverMessages: []
         };
-
-        // получение новых сообщений в цикле
-        //я делаю bind, чтобы у функции был определён контекст this
         setInterval(this.getMessages.bind(this), 1000);
     }
 
     postMessage(newMessage) {
-        // метод отправки сообщения
         let xhr = new XMLHttpRequest();
         xhr.open('POST', URL);
         xhr.send(JSON.stringify({
@@ -37,7 +36,6 @@ class App extends React.Component {
     }
 
     getMessages() {
-        // метод получения сообщений
         let xhr = new XMLHttpRequest();
         xhr.open('GET', URL);
         xhr.send();
@@ -51,7 +49,6 @@ class App extends React.Component {
     }
 
     drawMessages(response) {
-        // метод отрисовки сообщений
         const newServerMessages = JSON.parse(response);
         this.setState({serverMessages: newServerMessages});
     }
@@ -66,3 +63,5 @@ class App extends React.Component {
     }
 
 }
+
+export default App;

@@ -1,3 +1,9 @@
 npx http-server . /* запускает клиент
 
 node server.js /* поднять сервер
+
+npm run start /* в mini chat server
+
+npm run dev /* в моём чатке
+
+
