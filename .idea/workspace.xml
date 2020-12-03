@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="snapshot">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prettierrc.json" afterDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+eslint and +prettier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <workItem from="1606827451347" duration="53000" />
       <workItem from="1606827555699" duration="3706000" />
       <workItem from="1606877099833" duration="5199000" />
-      <workItem from="1607001259011" duration="1463000" />
+      <workItem from="1607001259011" duration="2221000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607001842989</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="+eslint and +prettier">
+      <created>1607007357053</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607007357053</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +282,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="server.js added" />
     <MESSAGE value="base index.html, main.css, main.js" />
     <MESSAGE value="added timer" />
     <MESSAGE value="reducing repeating code" />
@@ -301,7 +306,8 @@
     <MESSAGE value="+image" />
     <MESSAGE value="styles" />
     <MESSAGE value="snapshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="snapshot" />
+    <MESSAGE value="+eslint and +prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="+eslint and +prettier" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1606877162157">
