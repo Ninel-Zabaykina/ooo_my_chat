@@ -10,10 +10,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+eslint and +prettier">
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+react router part1">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ChatView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/LoginView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RegistrationView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BabyMop/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BabyMop/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Message.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessagesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessagesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +85,11 @@
       <workItem from="1606827451347" duration="53000" />
       <workItem from="1606827555699" duration="3706000" />
       <workItem from="1606877099833" duration="5199000" />
-      <workItem from="1607001259011" duration="2221000" />
+      <workItem from="1607001259011" duration="2578000" />
+      <workItem from="1607082282599" duration="6414000" />
+      <workItem from="1607101924569" duration="7000" />
+      <workItem from="1607103093863" duration="93000" />
+      <workItem from="1607271097442" duration="3067000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -263,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607007357053</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="+husky">
+      <created>1607007827971</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607007827971</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,9 +306,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="base index.html, main.css, main.js" />
-    <MESSAGE value="added timer" />
-    <MESSAGE value="reducing repeating code" />
     <MESSAGE value="url to const, continue reducing code duplication" />
     <MESSAGE value="app.js added" />
     <MESSAGE value="patching app" />
@@ -307,32 +328,59 @@
     <MESSAGE value="styles" />
     <MESSAGE value="snapshot" />
     <MESSAGE value="+eslint and +prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="+eslint and +prettier" />
+    <MESSAGE value="+husky" />
+    <MESSAGE value="+react router" />
+    <MESSAGE value="+react router part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="+react router part1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1606877162157">
+    <state x="474" y="254" key="#Notifications" timestamp="1607271804148">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1606877162157" />
+    <state x="474" y="254" key="#Notifications/0.0.1440.860@0.0.1440.860" timestamp="1607271804148" />
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1607008171044">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1607008171044" />
     <state x="514" y="330" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1606571293267">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="514" y="330" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1440.860@0.0.1440.860" timestamp="1606571293267" />
+    <state width="698" height="222" key="GridCell.Tab.0.bottom" timestamp="1607096381818">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="698" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1607096381818" />
+    <state width="698" height="222" key="GridCell.Tab.0.center" timestamp="1607096381818">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="698" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1607096381818" />
+    <state width="698" height="222" key="GridCell.Tab.0.left" timestamp="1607096381818">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="698" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1607096381818" />
+    <state width="698" height="222" key="GridCell.Tab.0.right" timestamp="1607096381818">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="698" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1607096381818" />
     <state x="358" y="191" key="MultipleFileMergeDialog" timestamp="1606571315934">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="358" y="191" key="MultipleFileMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1606571315934" />
-    <state x="495" y="132" key="RollbackChangesDialog" timestamp="1602395663058">
+    <state x="495" y="132" key="RollbackChangesDialog" timestamp="1607097279790">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="495" y="132" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1602395663058" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1606877444737">
+    <state x="495" y="132" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1607097279790" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1607271120910">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1606877444737" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1607271120910" />
     <state x="520" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606570744265">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="520" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.860@0.0.1440.860" timestamp="1606570744265" />
+    <state x="537" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607094694939">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="537" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1607094694939" />
   </component>
 </project>
