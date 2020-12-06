@@ -9,12 +9,18 @@ class ChatView extends React.Component {
         super();
         // эти переменные будут меняться динамически
         this.state = {
-            serverMessages: [],
+            serverMessages: []
         };
 
-        // получение новых сообщений в цикле
-        //я делаю bind, чтобы у функции был определён контекст this
-        setInterval(this.getMessages.bind(this), 1000);
+        this.timer = null;
+    }
+
+    componentDidMount() {
+        this.timer = setInterval(this.getMessages.bind(this), 1000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timer);
     }
 
     postMessage(newMessage) {
@@ -24,7 +30,7 @@ class ChatView extends React.Component {
         xhr.send(
             JSON.stringify({
                 nick: newMessage.nick,
-                message: newMessage.message,
+                message: newMessage.message
             })
         );
 
@@ -61,8 +67,8 @@ class ChatView extends React.Component {
         const { serverMessages } = this.state;
         return (
             <>
-                <h1>Чатик</h1>
-                <Form postMessage={(newMessage) => this.postMessage(newMessage)} />
+                <h1>Чат</h1>
+                <Form postMessage={newMessage => this.postMessage(newMessage)} />
                 <MessagesList messages={serverMessages} />
             </>
         );
