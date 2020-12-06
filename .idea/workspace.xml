@@ -10,12 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+links and update message">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="login form">
+      <change afterPath="$PROJECT_DIR$/src/apiServer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ProfileView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/webpack.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/webpack.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/RegistrationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RegistrationView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/LoginView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LoginView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <workItem from="1607082282599" duration="6414000" />
       <workItem from="1607101924569" duration="7000" />
       <workItem from="1607103093863" duration="93000" />
-      <workItem from="1607271097442" duration="5420000" />
+      <workItem from="1607271097442" duration="6020000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -290,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607276459582</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="registration form">
+      <created>1607277213525</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607277213525</updated>
+    </task>
+    <task id="LOCAL-00032" summary="login form">
+      <created>1607277370395</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607277370395</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,8 +323,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="app.js added" />
-    <MESSAGE value="patching app" />
     <MESSAGE value="splitting App Components to different files" />
     <MESSAGE value="Form.js fixing missed code" />
     <MESSAGE value="wrong path and filename fixed for MessagesList.js" />
@@ -334,7 +346,9 @@
     <MESSAGE value="+react router" />
     <MESSAGE value="+react router part1" />
     <MESSAGE value="+links and update message" />
-    <option name="LAST_COMMIT_MESSAGE" value="+links and update message" />
+    <MESSAGE value="registration form" />
+    <MESSAGE value="login form" />
+    <option name="LAST_COMMIT_MESSAGE" value="login form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="254" key="#Notifications" timestamp="1607271804148">
