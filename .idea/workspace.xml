@@ -10,7 +10,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="-node_moduls and change .gitignore" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ storybook">
+      <change afterPath="$PROJECT_DIR$/'" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Button.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Header.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Page.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/colors.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/direction.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/flow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/plugin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/repo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,11 +57,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1igmjwhgAY9mY8LVtFXlmAKZGpl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -76,6 +106,8 @@
       <workItem from="1607326490829" duration="700000" />
       <workItem from="1607440440908" duration="1445000" />
       <workItem from="1607526598710" duration="3276000" />
+      <workItem from="1607837757412" duration="2820000" />
+      <workItem from="1607872849569" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -334,8 +366,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="wrong path and filename fixed for MessagesList.js" />
-    <MESSAGE value="+ do nothing if message or nick is empty&#10;+ message field cleaning after send" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="change package.json and package-lock.json" />
     <MESSAGE value="create babel.config.js" />
     <MESSAGE value="added setupTests.js" />
@@ -359,13 +390,19 @@
     <MESSAGE value="login form" />
     <MESSAGE value="apiService" />
     <MESSAGE value="-node_moduls and change .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="-node_moduls and change .gitignore" />
+    <MESSAGE value="+storybook" />
+    <MESSAGE value="+ storybook" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ storybook" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="254" key="#Notifications" timestamp="1607271804148">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="474" y="254" key="#Notifications/0.0.1440.860@0.0.1440.860" timestamp="1607271804148" />
+    <state x="503" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607537990030">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="503" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1607537990030" />
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1607442219146">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -394,10 +431,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="358" y="191" key="MultipleFileMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1606571315934" />
-    <state x="495" y="132" key="RollbackChangesDialog" timestamp="1607097279790">
+    <state x="495" y="132" key="RollbackChangesDialog" timestamp="1607538077571">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="495" y="132" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1607097279790" />
+    <state x="495" y="132" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1607538077571" />
     <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1607271120910">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
