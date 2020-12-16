@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="validate registration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="validate registration (formik)">
+      <change beforePath="$PROJECT_DIR$/src/apiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <workItem from="1607837757412" duration="2820000" />
       <workItem from="1607872849569" duration="1465000" />
       <workItem from="1608046389146" duration="3587000" />
-      <workItem from="1608092945832" duration="2018000" />
+      <workItem from="1608092945832" duration="2378000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608096243991</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="validate registration (formik)">
+      <created>1608096937382</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1608096937382</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +369,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added setupTests.js" />
     <MESSAGE value="added Message.test.js" />
     <MESSAGE value="change Message.js" />
     <MESSAGE value="change package.json for start chatik" />
@@ -387,7 +393,8 @@
     <MESSAGE value="+ storybook" />
     <MESSAGE value="+chatform" />
     <MESSAGE value="validate registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="validate registration" />
+    <MESSAGE value="validate registration (formik)" />
+    <option name="LAST_COMMIT_MESSAGE" value="validate registration (formik)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="254" key="#Notifications" timestamp="1607271804148">
