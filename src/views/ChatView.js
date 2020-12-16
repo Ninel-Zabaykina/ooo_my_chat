@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from '../components/Form';
+import MessageForm from '../components/MessageForm';
 import MessagesList from '../components/MessagesList';
 
 const URL = 'http://localhost:3000';
@@ -37,7 +37,7 @@ class ChatView extends React.Component {
         xhr.onload = () => this.handleOnload(xhr);
 
         xhr.onerror = function () {
-            console.log('Запрос не удался');
+            console.log('Запрос не получился');
         };
     }
 
@@ -68,7 +68,7 @@ class ChatView extends React.Component {
         return (
             <>
                 <h1>Чат</h1>
-                <Form postMessage={newMessage => this.postMessage(newMessage)} />
+                <MessageForm postMessage={newMessage => this.postMessage(newMessage)} />
                 <MessagesList messages={serverMessages} />
             </>
         );

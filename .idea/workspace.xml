@@ -11,31 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ storybook">
-      <change afterPath="$PROJECT_DIR$/'" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Button.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Header.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Page.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/colors.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/comments.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/direction.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/flow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/plugin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/repo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChatForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remember.txt" beforeDir="false" afterPath="$PROJECT_DIR$/remember.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageForm.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Chat.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Chat.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ChatList.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ChatList.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ChatView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ChatView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +98,8 @@
       <workItem from="1607526598710" duration="3276000" />
       <workItem from="1607837757412" duration="2820000" />
       <workItem from="1607872849569" duration="1465000" />
+      <workItem from="1608046389146" duration="3587000" />
+      <workItem from="1608092945832" duration="1155000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -352,6 +344,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.eslintignore" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

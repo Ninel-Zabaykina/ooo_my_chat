@@ -6,4 +6,9 @@ npm run start /* в mini chat server
 
 npm run dev /* в моём чатке
 
+npm run storybook /* запуск storybook
+
+npm run build-storybook /* билд статичной версии
+
+
 

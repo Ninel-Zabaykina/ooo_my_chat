@@ -1,5 +1,3 @@
-eslint-disable
-
 module.exports = {
   "stories": [
     "../src/**/*.stories.mdx",
