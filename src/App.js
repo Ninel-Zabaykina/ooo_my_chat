@@ -17,7 +17,7 @@ class App extends React.Component {
                 <Switch>
                     <Route path="/login" component={LoginView} />
                     <Route path="/registration" component={RegistrationView} />
-                    <Route path="/chat" component={ChatView} />
+                    <Route path="/chat/:id" component={ChatView} />
                     <Route path="/profile" component={ProfileView} />
                     <Route path="/baby" component={BabyMop} />
                     <Redirect exact from="/" to="/login" />
