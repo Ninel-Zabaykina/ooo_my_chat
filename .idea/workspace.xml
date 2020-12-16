@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="show user nickname in chatview">
-      <change afterPath="$PROJECT_DIR$/src/components/SearchChatForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="search chat">
+      <change beforePath="$PROJECT_DIR$/src/views/ChatView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ChatView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/ProfileView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProfileView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <workItem from="1607872849569" duration="1465000" />
       <workItem from="1608046389146" duration="3587000" />
       <workItem from="1608092945832" duration="4340000" />
-      <workItem from="1608121602591" duration="305000" />
+      <workItem from="1608121602591" duration="1162000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -377,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608099275542</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="search chat">
+      <created>1608121970267</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1608121970267</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +406,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixed" />
     <MESSAGE value="beuty" />
     <MESSAGE value="configs for different files" />
     <MESSAGE value="hot reload" />
@@ -425,7 +430,8 @@
     <MESSAGE value="show chatList" />
     <MESSAGE value="send message in chatview" />
     <MESSAGE value="show user nickname in chatview" />
-    <option name="LAST_COMMIT_MESSAGE" value="show user nickname in chatview" />
+    <MESSAGE value="search chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="search chat" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="254" key="#Notifications" timestamp="1607271804148">

@@ -6,6 +6,7 @@ import apiService from '../apiService';
 class ChatView extends React.Component {
     constructor() {
         super();
+        // эти переменные будут меняться динамически
         this.state = {
             messages: [],
             users: []
@@ -15,6 +16,7 @@ class ChatView extends React.Component {
     }
 
     componentDidMount() {
+        this.setState({ users: [], messages: [] });
         this.timer = setInterval(this.getMessages.bind(this), 1000);
     }
 
@@ -29,11 +31,11 @@ class ChatView extends React.Component {
     }
 
     getMessages() {
-        return apiService.message
+        apiService.message
             .getMessages(this.props.match.params.id)
             .then(response => response.data)
             .then(messages => this.setState({ messages }))
-            .then(() => this.loadParticipants())
+            .then(() => this.getUsers())
             .then(() => {
                 const newMessages = this.state.messages.map(message => {
                     const user = this.state.users.find(user => user.id === message.userId);
@@ -44,17 +46,17 @@ class ChatView extends React.Component {
             });
     }
 
-    loadParticipants() {
-        const messages = this.state.messages;
-        const userIds = [...new Set(messages.map(message => message.userId))];
+    getUsers() {
         const oldUsers = this.state.users;
-        const oldUserIds = oldUsers.map(user => user.id);
-        const toLoad = userIds.filter(id => !oldUserIds.includes(id));
-        if (toLoad.length) {
-            return Promise.all(toLoad.map(id => apiService.user.getById(id)))
-                .then(responses => responses.map(response => response.data))
-                .then(loadedUsers => this.setState({ users: [...oldUsers, ...loadedUsers] }));
-        }
+        const oldUsersIds = oldUsers.map(user => user.id);
+        const newUsersIds = [...new Set(this.state.messages.map(message => message.userId))];
+        const toLoad = newUsersIds.filter(id => !oldUsersIds.includes(id));
+
+        if (!toLoad.length) return;
+
+        return Promise.all(toLoad.map(id => apiService.user.getById(id)))
+            .then(responses => responses.map(response => response.data))
+            .then(newUsers => this.setState({ users: [...oldUsers, ...newUsers] }));
     }
 
     render() {
@@ -62,7 +64,7 @@ class ChatView extends React.Component {
         return (
             <>
                 <h1>Чатик</h1>
-                <MessageForm postMessage={newMessage => this.postMessage(newMessage)} />
+                <MessageForm postMessage={data => this.postMessage(data)} />
                 <MessagesList messages={messages} />
             </>
         );
