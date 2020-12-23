@@ -11,11 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ user search">
+      <change afterPath="$PROJECT_DIR$/src/components/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UserSearchView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UserSearchView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +91,7 @@
       <workItem from="1608092945832" duration="4340000" />
       <workItem from="1608121602591" duration="2437000" />
       <workItem from="1608199227079" duration="1282000" />
-      <workItem from="1608737561062" duration="8893000" />
-    </task>
-    <task id="LOCAL-00004" summary="reducing repeating code">
-      <created>1602344678432</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1602344678432</updated>
+      <workItem from="1608737561062" duration="9834000" />
     </task>
     <task id="LOCAL-00005" summary="url to const, continue reducing code duplication">
       <created>1602344956503</created>
@@ -437,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608750586598</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="+ user search">
+      <created>1608751648380</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1608751648380</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
