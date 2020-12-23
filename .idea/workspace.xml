@@ -10,13 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+alias and redirect">
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/ChatForm.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ProfileView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProfileView.js" afterDir="false" />
-    </list>
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ chat search" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,21 +86,7 @@
       <workItem from="1608092945832" duration="4340000" />
       <workItem from="1608121602591" duration="2437000" />
       <workItem from="1608199227079" duration="1282000" />
-      <workItem from="1608737561062" duration="7474000" />
-    </task>
-    <task id="LOCAL-00001" summary="server.js added">
-      <created>1602343262244</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1602343262244</updated>
-    </task>
-    <task id="LOCAL-00002" summary="base index.html, main.css, main.js">
-      <created>1602343550242</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1602343550242</updated>
+      <workItem from="1608737561062" duration="7797000" />
     </task>
     <task id="LOCAL-00003" summary="added timer">
       <created>1602343769672</created>
@@ -437,7 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608749482911</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="new property on chat creation">
+      <created>1608750107582</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1608750107584</updated>
+    </task>
+    <task id="LOCAL-00051" summary="+ chat search">
+      <created>1608750325013</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1608750325013</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,8 +454,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="+react router" />
-    <MESSAGE value="+react router part1" />
     <MESSAGE value="+links and update message" />
     <MESSAGE value="registration form" />
     <MESSAGE value="login form" />
@@ -485,7 +477,9 @@
     <MESSAGE value="+e2e tests" />
     <MESSAGE value="e2e tests too" />
     <MESSAGE value="+alias and redirect" />
-    <option name="LAST_COMMIT_MESSAGE" value="+alias and redirect" />
+    <MESSAGE value="new property on chat creation" />
+    <MESSAGE value="+ chat search" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ chat search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="254" key="#Notifications" timestamp="1607271804148">
