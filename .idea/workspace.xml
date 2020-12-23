@@ -10,12 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="fixed chatlist">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ProfileView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProfileView.js" afterDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ loki">
+      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook-static/iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/storybook-static/iframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook-static/main.c70a8d80aa27cd4e87a5.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook-static/main.c70a8d80aa27cd4e87a5.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook-static/runtime~main.c70a8d80aa27cd4e87a5.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook-static/runtime~main.c70a8d80aa27cd4e87a5.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook-static/vendors~main.c70a8d80aa27cd4e87a5.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook-static/vendors~main.c70a8d80aa27cd4e87a5.bundle.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storybook-static/vendors~main.c70a8d80aa27cd4e87a5.bundle.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,7 @@
       <workItem from="1608092945832" duration="4340000" />
       <workItem from="1608121602591" duration="2437000" />
       <workItem from="1608199227079" duration="1282000" />
-      <workItem from="1608737561062" duration="2441000" />
+      <workItem from="1608737561062" duration="3463000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -409,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608739591800</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="+ loki">
+      <created>1608740197422</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1608740197422</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +444,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="+image" />
     <MESSAGE value="styles" />
     <MESSAGE value="snapshot" />
     <MESSAGE value="+eslint and +prettier" />
@@ -457,7 +468,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="fixed chat" />
     <MESSAGE value="fixed chatlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed chatlist" />
+    <MESSAGE value="+ loki" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ loki" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="254" key="#Notifications" timestamp="1607271804148">
