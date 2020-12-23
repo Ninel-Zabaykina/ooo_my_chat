@@ -10,17 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ loki">
-      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook-static/iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/storybook-static/iframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook-static/main.c70a8d80aa27cd4e87a5.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook-static/main.c70a8d80aa27cd4e87a5.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook-static/runtime~main.c70a8d80aa27cd4e87a5.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook-static/runtime~main.c70a8d80aa27cd4e87a5.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook-static/vendors~main.c70a8d80aa27cd4e87a5.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook-static/vendors~main.c70a8d80aa27cd4e87a5.bundle.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook-static/vendors~main.c70a8d80aa27cd4e87a5.bundle.js.map" beforeDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ nightwatch">
+      <change afterPath="$PROJECT_DIR$/tests/integration/Main.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/RegistrationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RegistrationView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +91,7 @@
       <workItem from="1608092945832" duration="4340000" />
       <workItem from="1608121602591" duration="2437000" />
       <workItem from="1608199227079" duration="1282000" />
-      <workItem from="1608737561062" duration="3463000" />
+      <workItem from="1608737561062" duration="3902000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -421,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608740197422</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="+ nightwatch">
+      <created>1608741499041</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1608741499041</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +445,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="styles" />
     <MESSAGE value="snapshot" />
     <MESSAGE value="+eslint and +prettier" />
     <MESSAGE value="+husky" />
@@ -469,7 +469,8 @@
     <MESSAGE value="fixed chat" />
     <MESSAGE value="fixed chatlist" />
     <MESSAGE value="+ loki" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ loki" />
+    <MESSAGE value="+ nightwatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ nightwatch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="254" key="#Notifications" timestamp="1607271804148">

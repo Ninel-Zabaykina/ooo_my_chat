@@ -15,7 +15,7 @@ export default class RegistrationView extends React.Component {
         apiService.user
             .create(values)
             .then(() => {
-                this.setState({ result: 'Пользователь успешно зарегистрирован' });
+                this.setState({ result: 'Пользователь зарегистрирован' });
                 setTimeout(() => this.props.history.push('/login'), 2000);
             })
             .catch(error => this.setState({ error: 'Ошибка: ' + error.response.data.error }));
@@ -25,16 +25,20 @@ export default class RegistrationView extends React.Component {
         const { error, result } = this.state;
 
         return (
-            <>
+            <div className="registration">
                 <h1>Регистрация</h1>
-                <div>{error && <span style={{ color: 'red' }}>{error}</span>}</div>
-                {result}
+                {error && (
+                    <div className="error">
+                        <span style={{ color: 'red' }}>{error}</span>
+                    </div>
+                )}
+                {result && <div className="result">{result}</div>}
                 <Formik
                     initialValues={{ nickname: '', password: '' }}
                     validate={values => {
                         const errors = {};
                         if (!values.nickname) {
-                            errors.nickname = 'Введите никнейм';
+                            errors.nickname = 'Введите ник';
                         }
                         if (!values.password) {
                             errors.password = 'Введите пароль';
@@ -84,7 +88,7 @@ export default class RegistrationView extends React.Component {
                         </form>
                     )}
                 </Formik>
-            </>
+            </div>
         );
     }
 }
