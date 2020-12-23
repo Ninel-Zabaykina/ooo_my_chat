@@ -35,8 +35,20 @@ export default class ProfileView extends React.Component {
             .then(chats => this.setState({ chats }));
     }
 
-    handleChatClick(id) {
+    goHandle(id) {
         this.props.history.push(`/chat/${id}`);
+    }
+
+    joinHandle(id) {
+        if (!confirm('Вы хотите начать этот чат?')) return;
+
+        apiService.chat.join(id).then(() => this.getChatList());
+    }
+
+    deleteHandle(id) {
+        if (!confirm('Вы хотите удалить этот чат?')) return;
+
+        apiService.chat.delete(id).then(() => this.getChatList());
     }
 
     handleChatSearch({ title }) {
@@ -46,16 +58,10 @@ export default class ProfileView extends React.Component {
             .then(foundChats => this.setState({ foundChats }));
     }
 
-    handleFoundChatClick(id) {
-        if (!confirm('Вы уверены что хотите вступить в этот чат?')) return;
-
-        apiService.chat.join(id).then(() => this.getChatList());
-    }
-
     render() {
         return (
             <>
-                <h1>Профиль пользователя</h1>
+                <h1>Профиль</h1>
                 {this.state.user && (
                     <>
                         <div>Никнейм: {this.state.user.nickname}</div>
@@ -64,13 +70,22 @@ export default class ProfileView extends React.Component {
                 )}
 
                 <h3>Чаты</h3>
-                <ChatList list={this.state.chats} clickHandle={id => this.handleChatClick(id)} />
+                <ChatList
+                    userId={this.state.user?.id}
+                    list={this.state.chats}
+                    goHandle={id => this.goHandle(id)}
+                    joinHandle={id => this.joinHandle(id)}
+                    deleteHandle={id => this.deleteHandle(id)}
+                />
                 <ChatForm handleSubmit={data => this.handleChatCreate(data)} />
 
                 <SearchChatForm handleSubmit={data => this.handleChatSearch(data)} />
                 <ChatList
+                    userId={this.state.user?.id}
                     list={this.state.foundChats}
-                    clickHandle={id => this.handleFoundChatClick(id)}
+                    goHandle={id => this.goHandle(id)}
+                    joinHandle={id => this.joinHandle(id)}
+                    deleteHandle={id => this.deleteHandle(id)}
                 />
             </>
         );
