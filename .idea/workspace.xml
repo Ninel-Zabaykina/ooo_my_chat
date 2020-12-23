@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ chat search" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="+ user search">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatList.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,14 +92,7 @@
       <workItem from="1608092945832" duration="4340000" />
       <workItem from="1608121602591" duration="2437000" />
       <workItem from="1608199227079" duration="1282000" />
-      <workItem from="1608737561062" duration="7797000" />
-    </task>
-    <task id="LOCAL-00003" summary="added timer">
-      <created>1602343769672</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1602343769672</updated>
+      <workItem from="1608737561062" duration="8893000" />
     </task>
     <task id="LOCAL-00004" summary="reducing repeating code">
       <created>1602344678432</created>
@@ -431,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608750325013</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="+ user search">
+      <created>1608750586598</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1608750586598</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +460,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="+links and update message" />
     <MESSAGE value="registration form" />
     <MESSAGE value="login form" />
     <MESSAGE value="apiService" />
@@ -479,7 +484,8 @@
     <MESSAGE value="+alias and redirect" />
     <MESSAGE value="new property on chat creation" />
     <MESSAGE value="+ chat search" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ chat search" />
+    <MESSAGE value="+ user search" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ user search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="254" key="#Notifications" timestamp="1607271804148">
