@@ -14,15 +14,19 @@ const message = {
 module.exports = {
     'User can register': function (browser) {
         browser
+            // eslint-disable-next-line
             .url('http://localhost:3000/')
             .waitForElementVisible('body')
             .assert.visible('body')
             .click('a[href="/registration"')
             .waitForElementVisible('div.registration-view')
             .assert.visible('div.registration-view')
+            // eslint-disable-next-line
             .setValue('input[name="nickname"]', user.nickname)
+            // eslint-disable-next-line
             .setValue('input[name="password"]', user.password)
             .submitForm('form')
+            // eslint-disable-next-line
             .waitForElementVisible('div.result')
             .assert.containsText('div.result', 'Пользователь успешно зарегистрирован')
             .end();
@@ -30,6 +34,7 @@ module.exports = {
     'User can log in': function (browser) {
         browser
             .url('http://localhost:3000/')
+            // eslint-disable-next-line
             .click('a[href="/login"')
             .waitForElementVisible('div.login-view')
             .assert.visible('div.login-view')

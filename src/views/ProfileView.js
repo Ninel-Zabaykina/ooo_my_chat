@@ -1,27 +1,20 @@
 import React from 'react';
-import apiService from '../apiService';
-import ChatForm from '../components/ChatForm';
-import ChatList from '../components/ChatList';
-import SearchChatForm from '../components/SearchChatForm';
+import apiService from '@/apiService';
+import ChatForm from '@/components/ChatForm';
+import ChatList from '@/components/ChatList';
+import SearchChatForm from '@/components/SearchChatForm';
 
 export default class ProfileView extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            user: null,
             chats: [],
             foundChats: []
         };
     }
 
     componentDidMount() {
-        apiService.user
-            .getCurrent()
-            .then(response => response.data)
-            .then(user => this.setState({ user }))
-            .then(() => apiService.chat.getMyChats(this.state.user.id))
-            .then(response => response.data)
-            .then(chats => this.setState({ chats }));
+        this.getChatList();
     }
 
     handleChatCreate({ title }) {
@@ -30,22 +23,22 @@ export default class ProfileView extends React.Component {
 
     getChatList() {
         apiService.chat
-            .getMyChats(this.state.user.id)
+            .getMyChats(this.props.user.id)
             .then(response => response.data)
             .then(chats => this.setState({ chats }));
     }
 
-    goHandle(id) {
+    goHandler(id) {
         this.props.history.push(`/chat/${id}`);
     }
 
-    joinHandle(id) {
-        if (!confirm('Вы хотите начать этот чат?')) return;
+    joinHandler(id) {
+        if (!confirm('Вы хотите вступить в этот чат?')) return;
 
         apiService.chat.join(id).then(() => this.getChatList());
     }
 
-    deleteHandle(id) {
+    deleteHandler(id) {
         if (!confirm('Вы хотите удалить этот чат?')) return;
 
         apiService.chat.delete(id).then(() => this.getChatList());
@@ -59,33 +52,30 @@ export default class ProfileView extends React.Component {
     }
 
     render() {
+        const { user } = this.props;
         return (
             <>
-                <h1>Профиль</h1>
-                {this.state.user && (
-                    <>
-                        <div>Никнейм: {this.state.user.nickname}</div>
-                        <div>Создан: {new Date(this.state.user.createdAt).toLocaleString()}</div>
-                    </>
-                )}
+                <h1>Профиль пользователя</h1>
+                <div>Никнейм: {user.nickname}</div>
+                <div>Создан: {new Date(user.createdAt).toLocaleString()}</div>
 
-                <h3>Чаты</h3>
+                <h3>Мои чаты</h3>
                 <ChatList
-                    userId={this.state.user?.id}
+                    userId={user.id}
                     list={this.state.chats}
-                    goHandle={id => this.goHandle(id)}
-                    joinHandle={id => this.joinHandle(id)}
-                    deleteHandle={id => this.deleteHandle(id)}
+                    goHandler={id => this.goHandler(id)}
+                    joinHandler={id => this.joinHandler(id)}
+                    deleteHandler={id => this.deleteHandler(id)}
                 />
                 <ChatForm handleSubmit={data => this.handleChatCreate(data)} />
 
                 <SearchChatForm handleSubmit={data => this.handleChatSearch(data)} />
                 <ChatList
-                    userId={this.state.user?.id}
+                    userId={user.id}
                     list={this.state.foundChats}
-                    goHandle={id => this.goHandle(id)}
-                    joinHandle={id => this.joinHandle(id)}
-                    deleteHandle={id => this.deleteHandle(id)}
+                    goHandler={id => this.goHandler(id)}
+                    joinHandler={id => this.joinHandler(id)}
+                    deleteHandler={id => this.deleteHandler(id)}
                 />
             </>
         );
