@@ -10,9 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="search chat">
-      <change beforePath="$PROJECT_DIR$/src/views/ChatView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ChatView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ProfileView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProfileView.js" afterDir="false" />
+    <list default="true" id="ac8e2f99-5d39-4b7a-880d-e0b1b3bb6bfc" name="Default Changelist" comment="refactoring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Chat.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Chat.stories.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,9 @@
       <workItem from="1607872849569" duration="1465000" />
       <workItem from="1608046389146" duration="3587000" />
       <workItem from="1608092945832" duration="4340000" />
-      <workItem from="1608121602591" duration="1162000" />
+      <workItem from="1608121602591" duration="2437000" />
+      <workItem from="1608199227079" duration="1282000" />
+      <workItem from="1608737561062" duration="591000" />
     </task>
     <task id="LOCAL-00001" summary="server.js added">
       <created>1602343262244</created>
@@ -383,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608121970267</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="refactoring">
+      <created>1608122867952</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1608122867952</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +418,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="beuty" />
     <MESSAGE value="configs for different files" />
     <MESSAGE value="hot reload" />
     <MESSAGE value="+image" />
@@ -431,7 +442,8 @@
     <MESSAGE value="send message in chatview" />
     <MESSAGE value="show user nickname in chatview" />
     <MESSAGE value="search chat" />
-    <option name="LAST_COMMIT_MESSAGE" value="search chat" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="254" key="#Notifications" timestamp="1607271804148">
