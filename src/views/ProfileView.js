@@ -2,14 +2,12 @@ import React from 'react';
 import apiService from '@/apiService';
 import ChatForm from '@/components/ChatForm';
 import ChatList from '@/components/ChatList';
-import SearchChatForm from '@/components/SearchChatForm';
 
 export default class ProfileView extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            chats: [],
-            foundChats: []
+            chats: []
         };
     }
 
@@ -44,13 +42,6 @@ export default class ProfileView extends React.Component {
         apiService.chat.delete(id).then(() => this.getChatList());
     }
 
-    handleChatSearch({ title }) {
-        apiService.chat
-            .search(title)
-            .then(response => response.data)
-            .then(foundChats => this.setState({ foundChats }));
-    }
-
     render() {
         const { user } = this.props;
         return (
@@ -68,15 +59,6 @@ export default class ProfileView extends React.Component {
                     deleteHandler={id => this.deleteHandler(id)}
                 />
                 <ChatForm handleSubmit={data => this.handleChatCreate(data)} />
-
-                <SearchChatForm handleSubmit={data => this.handleChatSearch(data)} />
-                <ChatList
-                    userId={user.id}
-                    list={this.state.foundChats}
-                    goHandler={id => this.goHandler(id)}
-                    joinHandler={id => this.joinHandler(id)}
-                    deleteHandler={id => this.deleteHandler(id)}
-                />
             </>
         );
     }
